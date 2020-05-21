@@ -1,0 +1,30 @@
+{
+  "group": "beescuit",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "leaves"
+    },
+    "3": {
+      "tag": "leaves"
+    },
+    "4": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "5": {
+      "tag": "leaves"
+    },
+    "7": {
+      "tag": "leaves"
+    }
+  },
+  "result": {
+    "item": "beescuit:sarma",
+    "count": 1
+  }
+}

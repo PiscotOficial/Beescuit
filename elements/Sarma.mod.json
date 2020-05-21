@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "sarma",
+    "customModelName": "Normal",
+    "name": "Sarma",
+    "specialInfo": [
+      "Ionac: \"Small Minced Meat Rolls Wrapped In Cabbage Or Vineyard Leaves\"",
+      "Makes you as strong as a real Romanian warrior!"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 6,
+    "saturation": 10.0,
+    "eatingSpeed": 16,
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SarmaFoodEaten"
+    }
+  }
+}
