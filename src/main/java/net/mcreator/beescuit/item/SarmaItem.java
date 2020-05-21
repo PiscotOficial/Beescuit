@@ -51,8 +51,7 @@ public class SarmaItem extends BeescuitModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Ionac: \"Small Minced Meat Rolls Wrapped In Cabbage Or Vineyard Leaves\""));
-			list.add(new StringTextComponent("Makes you as strong as a real Romanian warrior!"));
+			list.add(new StringTextComponent("\u00A75Makes you as strong as a real Romanian warrior!"));
 		}
 
 		@Override

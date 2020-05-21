@@ -63,7 +63,7 @@ public class CiomagItem extends BeescuitModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("Arma antica lasata mostenire de catre Sandu Ciobanul."));
+				list.add(new StringTextComponent("\u00A75Arma antica lasata mostenire de catre Sandu Ciobanul."));
 			}
 
 			@Override
