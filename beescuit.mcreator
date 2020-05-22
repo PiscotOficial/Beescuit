@@ -222,13 +222,7 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [
-    {
-      "name": "instrumentala",
-      "file": "musicro",
-      "category": "music"
-    }
-  ],
+  "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.beescuit.sarma": "Sarma",
