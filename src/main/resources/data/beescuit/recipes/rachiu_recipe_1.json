@@ -1,0 +1,22 @@
+{
+  "group": "beescuit",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:rachiu_ingredients"
+    },
+    {
+      "tag": "forge:rachiu_ingredients"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "forge:rachiu_ingredients"
+    }
+  ],
+  "result": {
+    "item": "beescuit:rachiu",
+    "count": 1
+  }
+}

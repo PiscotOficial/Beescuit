@@ -53,7 +53,7 @@ public class CiomagItem extends BeescuitModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -63,7 +63,8 @@ public class CiomagItem extends BeescuitModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A75Arma antica lasata mostenire de catre Sandu Ciobanul."));
+				list.add(new StringTextComponent("\u00A75Ancient weapon left behind by Sandu the Shepherd."));
+				list.add(new StringTextComponent("Right click to summon 3 sheep"));
 			}
 
 			@Override

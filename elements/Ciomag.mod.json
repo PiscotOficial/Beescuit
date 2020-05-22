@@ -7,7 +7,8 @@
     "customModelName": "Normal",
     "name": "Ciomag",
     "specialInfo": [
-      "§5Arma antica lasata mostenire de catre Sandu Ciobanul."
+      "§5Ancient weapon left behind by Sandu the Shepherd.",
+      "Right click to summon 3 sheep"
     ],
     "creativeTab": {
       "value": "COMBAT"
@@ -16,7 +17,7 @@
     "harvestLevel": 1,
     "efficiency": 2.0,
     "attackSpeed": 1.8,
-    "enchantability": 2,
+    "enchantability": 10,
     "damageVsEntity": 2.0,
     "usageCount": 69,
     "blocksAffected": [],

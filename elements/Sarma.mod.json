@@ -7,7 +7,8 @@
     "customModelName": "Normal",
     "name": "Sarma",
     "specialInfo": [
-      "§5Makes you as strong as a real Romanian warrior!"
+      "§5Makes you as strong as a real Romanian warrior!",
+      "Strength I 5s"
     ],
     "creativeTab": {
       "value": "FOOD"
@@ -15,7 +16,7 @@
     "stackSize": 64,
     "nutritionalValue": 6,
     "saturation": 10.0,
-    "eatingSpeed": 16,
+    "eatingSpeed": 32,
     "forDogs": true,
     "isAlwaysEdible": true,
     "animation": "eat",

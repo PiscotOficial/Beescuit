@@ -51,6 +51,8 @@ public class BeescuitModElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public BeescuitModElements() {
+		sounds.put(new ResourceLocation("beescuit", "instrumentala"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("beescuit", "instrumentala")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("beescuit").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,1 +1,11 @@
-{}
+{
+  "instrumentala": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beescuit:musicro",
+        "stream": true
+      }
+    ]
+  }
+}

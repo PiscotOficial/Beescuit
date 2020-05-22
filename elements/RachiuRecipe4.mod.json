@@ -6,41 +6,41 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "beescuit",
-    "recipeShapeless": false,
+    "group": "",
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "TAG:leaves"
+        "value": "TAG:forge:vegetables"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:leaves"
+        "value": "TAG:forge:vegetables"
       },
       {
-        "value": "TAG:forge:sarma_ingredients"
+        "value": "Items.GLASS_BOTTLE"
       },
       {
-        "value": "TAG:leaves"
+        "value": "TAG:forge:vegetables"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:leaves"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Sarma"
+      "value": "CUSTOM:Rachiu"
     },
-    "name": "sarma_recipe",
+    "name": "rachiu_recipe_4",
     "namespace": "mod"
   }
 }

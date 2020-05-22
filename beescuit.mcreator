@@ -103,13 +103,136 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sarma_recipe"
+    },
+    {
+      "name": "CiomagToolInHandTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ciomag_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CiomagOnFoodRightClicked",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ciomag_on_food_right_clicked",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RachiuOnFoodRightClicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rachiu_on_food_right_clicked",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Rachiu",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rachiu"
+    },
+    {
+      "name": "RachiuFoodEaten",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rachiu_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RachiuRecipe1",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rachiu_recipe_1"
+    },
+    {
+      "name": "RachiuRecipe2",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rachiu_recipe_2"
+    },
+    {
+      "name": "RachiuIngredients",
+      "type": "tag",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rachiu_ingredients"
+    },
+    {
+      "name": "RachiuRecipe3",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rachiu_recipe_3"
+    },
+    {
+      "name": "RachiuRecipe4",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rachiu_recipe_4"
+    },
+    {
+      "name": "SarmaIngredients",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sarma_ingredients"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "instrumentala",
+      "file": "musicro",
+      "category": "music"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.beescuit.sarma": "Sarma",
+      "item.beescuit.rachiu": "Rachiu",
       "item.beescuit.ciomag": "Ciomag"
     }
   },
@@ -126,6 +249,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.beescuit",
     "lockBaseModFiles": false
   },

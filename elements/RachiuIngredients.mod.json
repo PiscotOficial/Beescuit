@@ -1,0 +1,34 @@
+{
+  "_fv": 8,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Items.APPLE"
+      },
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.MELON"
+      },
+      {
+        "value": "Blocks.PUMPKIN"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "rachiu_ingredients",
+    "namespace": "forge"
+  }
+}

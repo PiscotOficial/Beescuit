@@ -1,8 +1,6 @@
 package net.mcreator.beescuit.procedures;
 
-import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.passive.SheepEntity;
 import net.minecraft.entity.EntityType;
@@ -44,19 +42,14 @@ public class CiomagRightClickedInAirProcedure extends BeescuitModElements.ModEle
 		int z = (int) dependencies.get("z");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		World world = (World) dependencies.get("world");
-		for (int index0 = 0; index0 < (int) (3); index0++) {
-			if (!world.isRemote) {
-				Entity entityToSpawn = new SheepEntity(EntityType.SHEEP, world);
-				entityToSpawn.setLocationAndAngles(x, y, z, world.rand.nextFloat() * 360F, 0);
-				world.addEntity(entityToSpawn);
-			}
-		}
-		if (world instanceof ServerWorld) {
-			((ServerWorld) world).spawnParticle(ParticleTypes.EXPLOSION, x, y, z, (int) 3, 3, 3, 3, 1);
+		if (!world.isRemote) {
+			Entity entityToSpawn = new SheepEntity(EntityType.SHEEP, world);
+			entityToSpawn.setLocationAndAngles(x, y, z, world.rand.nextFloat() * 360F, 0);
+			world.addEntity(entityToSpawn);
 		}
 		{
 			ItemStack _ist = (itemstack);
-			if (_ist.attemptDamageItem((int) 10, new Random(), null)) {
+			if (_ist.attemptDamageItem((int) 15, new Random(), null)) {
 				_ist.shrink(1);
 				_ist.setDamage(0);
 			}
